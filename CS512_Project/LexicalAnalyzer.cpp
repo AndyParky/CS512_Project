@@ -1,18 +1,9 @@
 /*
-Comments:
-Drew, please do this again and submit it with part 4. I'll grade it then. 
-You need 3 fields in your token. The constructor only stores the string to parse. 
-get_token parses it and returns the next token from that string (the parameter is the RETURN value). 
-get_token prints out nothing. Your parsing is far too simplistic and won't quite work. 
-You need to classify what you find and you need to convert everything into numbers that can be easily used and checked.
-*/
-
-/*
 Exercises 3-5 rely on the following grammar:
-expr ::= term [{+ | –} term]*
+expr ::= term [{+ | â€“} term]*
 term ::= factor [{* | /} factor]*
 factor ::= (expr) | number
-where number is a real number as described in part 2 (I hope you’ve written out the syntax rule for number by now).  Make sure to report the proper errors at the proper levels in the code.
+where number is a real number as described in part 2 (I hope youâ€™ve written out the syntax rule for number by now).  Make sure to report the proper errors at the proper levels in the code.
 
 3.	Implement a lexical analyzer for this language.  Make sure to write out the grammar for the LA (include it in a comment).
 
